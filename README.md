@@ -10,7 +10,7 @@ Currently supported Desktop environments:
 
 -How to install it yourself-
 type these commands in Termux:
-wget ""
+wget "https://github.com/NinMan64/Ubuntermux-Installer/releases/download/utermuxinstaller-beta2/Install.sh"
 bash Install.sh
 
 
