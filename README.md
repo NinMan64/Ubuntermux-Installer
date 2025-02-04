@@ -6,15 +6,13 @@ Currently supported Desktop environments:
 *Windows 10 theme (KDE) 
 *Windows 11 Theme (Gnome) 
 *macOS Big Sur theme (Xfce) 
-Cinnamon desktop support coming in Beta 2!
+*Cinnamon Desktop (Beta2 only)
 
 -How to install it yourself-
-First, go to this page and go to tags.
-Second, go to the latest version of The installer. 
-Third, download the  file.
-Fourth, go to termux and type in termux-setup-storage if you haven't already.
-Fifth, Move the file to the Termux app by typing in "mv ~/storage/downloads/Install.sh ~". 
-Finally, execute the file by typing in "bash Install.sh". 
+type these commands in Termux:
+wget ""
+bash Install.sh
+
 
 
 Note that this project isn't exactly mine; this belongs to @23xvx and his original Termux-Ubuntu-Installer project.
