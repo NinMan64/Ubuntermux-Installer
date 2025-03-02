@@ -12,7 +12,7 @@ Currently supported Desktop environments:
 
 -How to install it yourself-
 type these commands in Termux:
-wget "https://github.com/NinMan64/Ubuntermux-Installer/releases/download/utermuxinstaller-beta2/Install.sh"
+wget https://raw.githubusercontent.com/NinMan64/Ubuntermux-Installer/refs/heads/main/Install.sh
 bash Install.sh
 
 -ExtraPak-
