@@ -1,4 +1,6 @@
-Hello! This is my first project, UbunTermux-Installer! This script allows you to install Ubuntu 24.04 on termux! 
+Hello! This is my first project, UbunTermux-Installer!
+This script allows you to install Ubuntu 24.04 on termux! 
+
 Currently supported Desktop environments:
 *XFCE
 *GNOME (Ubuntu)
@@ -12,13 +14,19 @@ Currently supported Desktop environments:
 
 -How to install it yourself-
 type these commands in Termux:
-wget https://raw.githubusercontent.com/NinMan64/Ubuntermux-Installer/refs/heads/main/Install.sh
-bash Install.sh
+"wget https://raw.githubusercontent.com/
+NinMan64/Ubuntermux-Installer/refs/heads/
+main/Install.sh
+bash Install.sh"
+Note: Omit ""
 
 -ExtraPak-
-ExtraPak is a Pack of extra Wallpapers (Not all), Applications.
+ExtraPak is a Pack of extra Wallpapers
+(Not all), Applications.
 Install by typing:
-'wget https://raw.githubusercontent.com/NinMan64/Ubuntermux-Installer/refs/heads/Files/extras.sh'
+'wget https://raw.githubusercontent.com/
+NinMan64/Ubuntermux-Installer/refs/heads/
+Files/extras.sh'
 
 Note that this project isn't exactly mine; this belongs to @23xvx and his original Termux-Ubuntu-Installer project.
 Thanks to him! This project only exists to fix the problem with the installation of Cinnamon desktop.
