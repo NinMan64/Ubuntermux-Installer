@@ -68,7 +68,7 @@ requirements() {
     echo "<<<<<<<<<<<<<<<<<<<<<<<                                                                             "
     echo "UbunTermux Installation Script  Made by NinMan64  Original script by 23xvx                          "
     echo "Ubuntu GNU/Linux made by Cannonical                                           https://www.ubuntu.com"
-    echo "Version B4-R2"
+    echo "Version B4-R3" 
     sleep 1 
     echo ${G}"Installing required packages..."${W}
     pkg install pulseaudio proot-distro wget  -y
@@ -107,15 +107,15 @@ choose_desktop() {
     echo " 8) Cinnamon (GNOME 3, Ubuntu version) "
     echo " 9) Cinnamon (GNOME 3, Stock Version)"
     echo "10) KDE"
-    echo "11) WindowMaker (NeXTSTEP) (UNSELECTABLE)"
+    echo "11) WindowMaker (NeXTSTEP)*
     echo "12) Enlightenment (UNSELECTABLE)"
     echo ${C}"Please enter number 1-9 to choose your desktop "
     echo ${C}"If you don't want a desktop please just enter '${W}CLI${C}'"${W}
     read desktop
     sleep 1
     case $desktop in
-        1|2|3|4|5|6|7|8|9|10) echo ${G}"Starting Installation..."${Y} ;;
-        11|12) echo ${G}"This option is being worked on and will be selectable in the next release.." ; sleep 1 ; choose_desktop ;;
+        1|2|3|4|5|6|7|8|9|10|11) echo ${G}"Starting Installation..."${Y} ;;
+        12) echo ${G}"This option is being worked on and will be selectable in the next release.." ; sleep 1 ; choose_desktop ;;
         CLI) echo ${G}"Installing Ubuntu Base..."${Y} ;
         *) echo ${R}"We apoligize, for this option doesn't exist"; sleep 1 ; choose_desktop ;;
     esac
