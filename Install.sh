@@ -256,7 +256,7 @@ stockcinnamon_mode() {
 
 wmaker_mode() {
     echo ${G}"Installing WindowMaker..."
-    download_script "paste link here" $directory silence
+    download_script "https://ia904502.us.archive.org/3/items/utemux-files/wmaker.sh" $directory silence
     $login -- /bin/bash/wmaker.sh
     rm -rf $directory/wmaker.sh
 }
